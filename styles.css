@@ -1,0 +1,231 @@
+/* Ajustes generales */
+body {
+    background-color:  #101728; /* Fondo más oscuro */
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav a {
+    color: white;
+}
+
+
+/* Hero Section */
+.hero-section {
+    padding: 100px 0;
+    background-color:  #101728; /* Color ajustado según la imagen */
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    margin-bottom: 40px; /* Espaciado ajustado */
+}
+
+/* Features Section */
+.features-section {
+    padding: 80px 0;
+    background-color: #101728; /* Color ajustado según la imagen */
+}
+
+.features-section h4 {
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.features-section p {
+    font-size: 1rem; /* Tamaño de texto ajustado */
+    color: #AEB7C1; /* Color de texto ajustado */
+}
+
+/* Stay Productive Section */
+.stay-productive-section {
+    padding: 80px 0;
+    background-color: #181F31;
+    color: #ffffff;
+}
+
+.stay-productive-section h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.stay-productive-section p {
+    font-size: 1rem;
+    margin-bottom: 30px; /* Espaciado ajustado */
+}
+
+/* Testimonial Section */
+.testimonials-section {
+    padding: 80px 0;
+    background-color: #0B1523;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #1A2332;
+    padding: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    position: relative;
+    margin: 20px 0;
+}
+
+.testimonial::before {
+    content: '“';
+    font-size: 4rem;
+    color: #5e72e4;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+.testimonial footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.testimonial footer img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.testimonial footer p {
+    margin: 0;
+}
+
+.testimonial:hover {
+    background-color: #252D41;
+}
+
+
+/* CTA Section */
+.cta-section {
+    padding: 80px 0;
+    background-color: #1A2332;
+    text-align: center;
+    color: white;
+}
+
+.cta-section h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.cta-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-section input[type="email"] {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    flex-grow: 1;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.cta-section button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #5e72e4;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-section button:hover {
+    background-color: #3c51c9;
+}
+
+/* Footer Section */
+.footer {
+    padding: 60px 0;
+    background-color: #0B1523;
+    color: #ffffff;
+}
+
+.footer .navbar-brand img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #AEB7C1;
+}
+
+.footer .contact-list {
+    margin-top: 20px;
+}
+
+.footer .contact-list li {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.footer .contact-list li img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer .footer-links {
+    margin-top: 10px;
+}
+
+.footer .footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-links a {
+    color: #AEB7C1;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .footer-links a:hover {
+    color: #ffffff;
+}
+
+.footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    transition: opacity 0.3s ease;
+}
+
+.footer .social-icons a:hover img {
+    opacity: 0.7;
+}
+
+.footer .attribution {
+    font-size: 0.8rem;
+    color: #AEB7C1;
+    margin-top: 30px;
+}
+
+.footer .attribution a {
+    color: #5e72e4;
+    text-decoration: none;
+}
